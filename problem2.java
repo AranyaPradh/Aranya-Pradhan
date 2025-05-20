@@ -5,7 +5,7 @@ public class OddNumberSeries {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int a = scanner.nextInt();
-
+          // Generate and print the series
         for (int i = 0; i < a; i++) {
             System.out.print(2 * i + 1);
             if (i < a - 1) {
