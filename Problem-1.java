@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Calculator {
     double a, b;
     String operation;
-
+    // Constructor
     public Calculator(double a, double b, String operation) {
         this.a = a;
         this.b = b;
         this.operation = operation.toLowerCase();
     }
-
+       // Method to perform calculation
     public void calculate() {
         switch (operation) {
             case "add":
@@ -32,7 +32,7 @@ public class Calculator {
                 System.out.println("Error: Invalid operation");
         }
     }
-
+    // Main method to run the calculator
     public static void main(String[] args) {
         double a = 10.5;
         double b = 2.5;
